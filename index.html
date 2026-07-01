@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Órbita Terrestre 3D</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="ui-panel">
+        <h1>Simulador Orbital</h1>
+        
+        <div class="control-group">
+            <label for="speed-slider">Velocidad de simulación: <span id="speed-val">1x</span></label>
+            <input type="range" id="speed-slider" min="1" max="1000" value="1">
+        </div>
+
+        <div class="control-group">
+            <label for="distance-slider">Distancia Tierra-Sol: <span id="distance-val">1.00 UA</span></label>
+            <input type="range" id="distance-slider" min="0.50" max="2.00" step="0.05" value="1">
+        </div>
+
+        <div class="control-group">
+            <label for="month-selector">Mes del Año:</label>
+            <select id="month-selector">
+                <option value="0">Enero (Perihelio)</option>
+                <option value="1">Febrero</option>
+                <option value="2">Marzo</option>
+                <option value="3">Abril</option>
+                <option value="4">Mayo</option>
+                <option value="5">Junio</option>
+                <option value="6">Julio (Afelio)</option>
+                <option value="7">Agosto</option>
+                <option value="8">Septiembre</option>
+                <option value="9">Octubre</option>
+                <option value="10">Noviembre</option>
+                <option value="11">Diciembre</option>
+            </select>
+        </div>
+        
+        <button id="reset-btn">Reiniciar Vista</button>
+        
+        <div id="data-panel">
+            <p>Distancia: <span id="dist-data">0</span> M km</p>
+            <p>Velocidad: <span id="vel-data">0</span> km/h</p>
+        </div>
+    </div>
+    
+    <div id="canvas-container"></div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
