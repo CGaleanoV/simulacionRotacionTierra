@@ -1,4 +1,4 @@
-# Simulador de la rotación de la orbita de la Tierra
+# Simulador de la orbita de la Tierra
 Simulador interactivo en 3D de la órbita terrestre alrededor del Sol. Desarrollado con JavaScript y Three.js, implementa las leyes de Kepler, inclinación axial estricta y sincronización temporal física.
 
 # Simulador de Órbita Terrestre 3D
