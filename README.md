@@ -1,6 +1,3 @@
-# Simulador de la orbita de la Tierra
-Simulador interactivo en 3D de la órbita terrestre alrededor del Sol. Desarrollado con JavaScript y Three.js, implementa las leyes de Kepler, inclinación axial estricta y sincronización temporal física.
-
 # Simulador de Órbita Terrestre 3D
 
 Este proyecto es una aplicación web interactiva en 3D que simula la mecánica orbital de la Tierra alrededor del Sol de manera matemáticamente estricta. El simulador modela la traslación elíptica y la rotación diaria del planeta bajo una escala de tiempo física sincronizada.
