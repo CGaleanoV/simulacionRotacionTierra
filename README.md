@@ -23,3 +23,7 @@ Este proyecto es una aplicación web interactiva en 3D que simula la mecánica o
 1. Clona este repositorio en tu máquina local.
 2. Asegúrate de incluir los archivos de textura correspondientes (`sol.jpg` y `tierra.jpg`) en el directorio raíz.
 3. Debido a las políticas de seguridad de los navegadores modernos para la carga de texturas locales (CORS), se requiere ejecutar el proyecto a través de un servidor web local (por ejemplo, utilizando la extensión *Live Server* en Visual Studio Code).
+
+## Alternativa de ejecución vía Netlify
+https://simulador-movimiento-orbital.netlify.app/
+   
